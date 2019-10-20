@@ -6,6 +6,12 @@ Directions to Students
 Your goal is to modify your copy of bits.c so that it passes all the
 tests in btest without violating any of the coding guidelines.
 
+*********
+-1. docker(added by csapptw)
+*********
+* run the following command in this directory to skip the hassel of build environment.
+* you need docker installed on your machine
+$docker run -i -t --rm -v "$PWD":/usr/src/lab -w /usr/src/lab dockcross/linux-x86  /bin/bash
 
 *********
 0. Files:
